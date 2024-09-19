@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#EBF7F6]">
+<div class="ml-[400px] mt-[50px] ">
+    <h1 class="text-4xl font-bold  ">COLLEGE REGISTRATION FORM</h1>
+  <div class="leading-5"> 
+     <p>Thank you for applying to our college. Please fill in the form below to complete the  </p>
+     <p>registration  process for admission.</p>
+</div>
+<div>
+    <form action="">
+    <div class="mt-8">
+        <label for="" class="text-2xl font-semibold">Name<span class="text-[#F70000]">*</span></label> <br>
+        <input type="text"  required placeholder="First" class="text-white h-[50px] w-[300px] mt-2 placeholder-custom px-4 py-2 border-solid border-4 border-[#A07800]" >
+        <input type="text"  placeholder="Last" class="text-white h-[50px] ml-2 w-[300px] mt-2 placeholder-custom px-4 py-2 border-solid border-4 border-[#A07800]" >
+    </div>
+    <div class="mt-4">
+        <label for="" class="text-2xl font-semibold">Date Of Birth<span class="text-[#F70000]">*</span></label> <br>
+        <input type="date"  required placeholder="First" class="text-white h-[50px] w-[615px] mt-2 placeholder-custom px-4 py-2 border-solid border-4 border-[#A07800]" >
+    </div>
+    <div class="mt-4">
+        <label for="" class="text-2xl font-semibold">E-mail<span class="text-[#F70000]">*</span></label> <br>
+        <input type="email"  required placeholder="E-mail" class="text-white  h-[50px] w-[615px] mt-2 placeholder-custom px-4 py-2 border-solid border-4 border-[#A07800]" >
+    </div>
+    <div class="mt-8">
+        <label for="" class="text-2xl font-semibold">Father Name<span class="text-[#F70000]">*</span></label> <br>
+        <input type="text" required placeholder="First" class="text-white h-[50px] w-[300px] mt-2 placeholder-custom px-4 py-2 border-solid border-4 border-[#A07800]" >
+        <input type="text"  placeholder="Last" class="text-white h-[50px] ml-2 w-[300px] mt-2 placeholder-custom px-4 py-2 border-solid border-4 border-[#A07800]" >
+    </div>
+    <div class="mt-8">
+        <label for="" class="text-2xl font-semibold">Mother Name<span class="text-[#F70000]">*</span></label> <br>
+        <input type="text" required placeholder="First" class="text-white h-[50px] w-[300px]  mt-2 placeholder-custom px-4 py-2 border-solid border-4 border-[#A07800]" >
+        <input type="text"  placeholder="Last" class="text-white h-[50px] ml-2 w-[300px] mt-2 placeholder-custom px-4 py-2 border-solid border-4 border-[#A07800]" >
+    </div>
+    <div class="mt-8">
+        <label for="" class="text-2xl font-semibold">Gender<span class="text-[#F70000]">*</span></label> <br>
+        <input type="radio" name="gender" id="Male" value="Male" class=" mt-4  " >
+        <label for="">Male</label> 
+        <input type="radio" name="gender" id="Female" value="Female" class=" mt-4 ml-20" >
+        <label for="">Female</label> 
+        <input type="radio" name="gender" id="Othes" value="Others" class=" mt-4 ml-20 " > 
+        <label for="">Others</label>
+    </div>
+    <div class="mt-4">
+        <label for="" class="text-2xl font-semibold">Nationality<span class="text-[#F70000]">*</span></label> <br>
+        <input type="text" required class="text-white h-[50px] w-[615px] mt-2 border-solid border-4 border-[#A07800]" >
+    </div>
+    <div class="mt-4">
+        <label for="" class="text-2xl font-semibold">Home Address<span class="text-[#F70000]">*</span></label> <br>
+        <input type="text"  required placeholder="House no street no " class="text-white h-[50px] w-[615px] mt-2 placeholder-custom px-4 py-2  border-solid border-4 border-[#A07800]" >
+    </div>
+    <div class="mt-4">
+        <!-- <label for="" class="text-2xl font-semibold">Mother Name<span class="text-[#F70000]">*</span></label> <br> -->
+        <input type="text" placeholder="City" class="text-white h-[50px] w-[300px] placeholder-custom px-4 py-2 border-solid border-4 border-[#A07800]" >
+        <select name="" id="nationality" placeholder="Country" class="h-[50px] w-[300px] ml-2 border-solid border-4 border-[#A07800]">
+            <option value="" >Pakistan</option>
+            <option value="" >India</option>
+            <option value="" >Japan</option>
+            <option value="" >Canada</option>
+            <option value="" >Turkey</option>
+            <option value="" >America</option>
+            <option value="" >Malaysia</option>
+            <option value="" >Indonasia</option>
+            <option value="" >Scotland</option>
+            <option value="" >Ireland</option>
+            <option value="" >Greenland</option>
+        </select>
+    </div>
+    <div class="mt-4">
+        <label for="" class="text-2xl font-semibold">Telephone - Mobile<span class="text-[#F70000]">*</span></label> <br>
+        <input type="text"  placeholder="############" required  class="text-white h-[50px] w-[615px] placeholder-custom px-4 py-2 mt-2 border-solid border-4 border-[#A07800]" >
+    </div>
+    <div class="mt-4">
+        <p class="text-2xl font-semibold">In a few sentences, write down why you want to become </p>
+        <p class="text-2xl font-semibold">a student of our College<span class="text-[#F70000]">*</span></p>
+       <textarea  id="area" placeholder="type your message ... " class="h-[100px] w-[615px]  mt-2 placeholder-custom px-4 py-2   border-solid border-4 border-[#A07800] text-white"></textarea>
+    </div>
+
+    <div class="ml-[250px] mt-4 pb-10">
+      <button class="overflow-hidden relative w-32 p-2 h-12 bg-[#A07800] text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group">
+  Submit
+  <span
+    class="absolute w-36 h-32 -top-8 -left-2 bg-green-200 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-bottom"
+  ></span>
+  <span
+    class="absolute w-36 h-32 -top-8 -left-2 bg-golden-400 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-bottom"
+  ></span>
+  <span
+    class="absolute w-36 h-32 -top-8 -left-2 bg-black rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-bottom"
+  ></span>
+  <span
+    class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">submit</span>
+      </button>
+
+    </div>
+
+
+    </form>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
